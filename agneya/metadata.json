@@ -1,0 +1,13 @@
+{
+  "name": "AGNEYA",
+  "description": "AI-powered civic complaint intelligence and workforce management system for India.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "AI Complaint Analysis",
+    "Workforce Automation",
+    "Civic Tracking"
+  ]
+}
