@@ -1,7 +1,5 @@
-import { GoogleGenAI, Type } from "@google/genai";
-
+import { GoogleGenerativeAI, Type } from "@google/genai";
 const ai = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
-
 export const ANALYZE_COMPLAINT_SCHEMA = {
   type: Type.OBJECT,
   properties: {
